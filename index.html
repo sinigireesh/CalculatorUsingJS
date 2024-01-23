@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+<title>Calculator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="calculator">
+    <form name="f1">
+        <div>
+        <input type="text" class="OPdisplay" name="ans" value="0"/>    
+        </div>   
+        <div>
+            <button type="button" class="button" onclick=clear()>AC</button>
+            <button type="button" class="button">DE</button>
+            <button type="button" class="button">.</button>
+            <button type="button" class="button">/</button>
+        </div>
+        <div>
+            <button type="button" class="button" onclick="displayValue('7')">7</button>
+            <button type="button" class="button" onclick="displayValue('8')">8</button>
+            <button type="button" class="button">9</button>
+            <button type="button" class="button">*</button>
+        </div>
+        <div>
+            <button type="button" class="button">4</button>
+            <button type="button" class="button">5</button>
+            <button type="button" class="button">6</button>
+            <button type="button" class="button">-</button>
+        </div>
+        <div>
+            <button type="button" class="button">1</button>
+            <button type="button" class="button">2</button>
+            <button type="button" class="button">3</button>
+            <button type="button" class="button">+</button>
+        </div> 
+        <div>      
+            <button type="button" class="button">0</button>     
+            <button type="button" class="button">00</button>
+            <button type="button" class="buttonEqual">=</button>
+        </div>
+
+    </form>
+   
+</section>
+<script source="app.js"></script>
+</body>
+
+</html>
